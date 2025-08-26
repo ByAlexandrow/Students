@@ -1,0 +1,28 @@
+# Beautiful code rules!
+
+### Main rules for clean Python code:
+
+- **Use 4 spaces** for indentation (no tabs).
+- Write variable and function names in **snake_case** (my_variable).
+- Name classes in CamelCase style (MyClass).
+- Use **clear and meaningful names** for variables, functions, and classes.
+- **Use docstrings** to describe the purpose of functions and classes.
+- Limit line length to 79-80 characters for readability.
+- Avoid writing too long functions — **break code into small logical blocks**.
+- **Use comments** to explain *why* something is done, not *what* the code does.
+- Organize imports: standard libraries, third-party libraries, local modules.
+- Avoid global variables, use functions and classes.
+- Use exception handling for error management.
+- Follow consistent code style — preferably **PEP8**.
+- **DRY - don't repeat yourself**: extract repeating parts into separate functions.
+
+### Additional rules:
+
+- **Use f-strings** (f"text {variable}") for string formatting.
+- Try to write functions with a single level of abstraction.
+- Use generators and list comprehensions for more concise code.
+- **Write tests** for important functions and components.
+- Use typing hints if the project allows it.
+- Keep namespace clean — import only what you need.
+- Document non-obvious or complex algorithms.
+- Maintain consistency in quote style (‘ ’ or “ ”) throughout the project.
