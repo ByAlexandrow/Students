@@ -55,8 +55,9 @@ result = text * number
 print(result)
 
 **!!!**  
-We can use + and * with the strings, but the difference is in the result of these operations:
-'Py' + 'thon' == 'Python'
+We can use + and * with the strings, but the difference is in the result of these operations:  
+
+'Py' + 'thon' == 'Python'  
 'Python' * 2 == 'PythonPython'
 
 We can't use - and / or // and etc with the strings!
